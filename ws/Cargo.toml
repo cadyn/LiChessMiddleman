@@ -21,7 +21,7 @@ tokio-tungstenite = { version = "0.19", optional = true }
 
 [dependencies.rocket]
 version = "=0.5.0-rc.3"
-path = "C:\\Users\\cadyn\\rust\\Rocket\\core\\lib"
+path = "../../Rocket/core/lib"
 default-features = false
 
 [package.metadata.docs.rs]

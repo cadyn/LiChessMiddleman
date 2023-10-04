@@ -168,5 +168,8 @@ fn rocket() -> _ {
     .mount("/", routes![auth])
     .mount("/", routes![echo_stream])
     .mount("/", routes![test])
+    .mount("/", routes![play])
+    .mount("/", routes![board])
+    .mount("/", routes![pre])
     .manage(TokenMapping { map: Mutex::new(HashMap::<String,String>::new())})
 }
